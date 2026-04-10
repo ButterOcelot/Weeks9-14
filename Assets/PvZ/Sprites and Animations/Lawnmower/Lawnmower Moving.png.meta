@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: fe5bf190adf41964b86ad53f12b9d6a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2425529538886501079
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_0
+  - first:
+      213: 8391281968371468132
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: 3133798095379210760
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: -7226281802987838934
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_3
+  - first:
+      213: -8029727471736100094
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_4
+  - first:
+      213: -6807326825169230676
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_5
+  - first:
+      213: 3206410720487778578
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_6
+  - first:
+      213: -6406346502675301309
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_7
+  - first:
+      213: 3544084832915033272
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_8
+  - first:
+      213: 1558142636542463579
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_9
+  - first:
+      213: -2637286813463697194
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_10
+  - first:
+      213: 7852927629820438003
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_11
+  - first:
+      213: 7622462957526276502
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_12
+  - first:
+      213: -3652920762170844459
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_13
+  - first:
+      213: -2758775620706818262
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_14
+  - first:
+      213: 2373354034303923144
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_15
+  - first:
+      213: 7359644968506200608
+    second: JP_Lawnmower-ezgif.com-gif-to-sprite-converter_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lawnmower Moving_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342dbabd2c2483f428be1a0ce290fad4
+      internalID: -579062231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 171
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b4f0e99bcae774e9cd5bd8bf617109
+      internalID: 822975333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 171
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163a1a1beb9e12746a57ba719db02f30
+      internalID: 1715039492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 171
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9a959e399b8444ca18cf8e76cac950
+      internalID: 489055617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 171
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeeb5b9bea66a2468de16536a6113f0
+      internalID: -997915455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf603dbd53785148869b3d033c459cc
+      internalID: 616845131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 114
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd7ba6703c81c242b1d38812cca7a5f
+      internalID: -892935232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 114
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb25bbf49ae3594eb62f9455f2dc798
+      internalID: -35287884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 114
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad3ad6f7c6d0544ca9df44264640557
+      internalID: 1903969106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 114
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee47323dc5b7444a8ab2c312802be8
+      internalID: 32853040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a00da57e97bdb4196d01df535d16ae
+      internalID: 1731450391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 57
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de208a10996e2b34ba27ee9040ef7f26
+      internalID: 1720323515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 57
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d9b354141f7274f87c944fd41e3477
+      internalID: -172676822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 57
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cafeaf614e52524aa84ffc801871379
+      internalID: 762712166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 57
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618a1c0716a4799499c88b253bc58886
+      internalID: -1725468463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cf0cb6e90ef844fb4055b8de3edff3
+      internalID: -1130494033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lawnmower Moving_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad80925ebb554142a15a8a1eb4010e4
+      internalID: 1467739110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 001231eefd45db541b8732c478f13b42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":57.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Lawnmower Moving_0: -579062231
+      Lawnmower Moving_1: 822975333
+      Lawnmower Moving_10: 1731450391
+      Lawnmower Moving_11: 1720323515
+      Lawnmower Moving_12: -172676822
+      Lawnmower Moving_13: 762712166
+      Lawnmower Moving_14: -1725468463
+      Lawnmower Moving_15: -1130494033
+      Lawnmower Moving_16: 1467739110
+      Lawnmower Moving_2: 1715039492
+      Lawnmower Moving_3: 489055617
+      Lawnmower Moving_4: -997915455
+      Lawnmower Moving_5: 616845131
+      Lawnmower Moving_6: -892935232
+      Lawnmower Moving_7: -35287884
+      Lawnmower Moving_8: 1903969106
+      Lawnmower Moving_9: 32853040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
