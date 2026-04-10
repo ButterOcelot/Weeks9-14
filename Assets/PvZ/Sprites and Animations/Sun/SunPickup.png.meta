@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 84123e196b5db6e4392c86ca3590e405
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1661623063324199519
+    second: SunPickup_0
+  - first:
+      213: -1182473960086257105
+    second: SunPickup_1
+  - first:
+      213: -1986132017811175001
+    second: SunPickup_2
+  - first:
+      213: 4368700512474826506
+    second: SunPickup_3
+  - first:
+      213: -5523977617819731782
+    second: SunPickup_4
+  - first:
+      213: -5902552768494408257
+    second: SunPickup_5
+  - first:
+      213: -5323678361569410849
+    second: SunPickup_6
+  - first:
+      213: -7500269833255656979
+    second: SunPickup_7
+  - first:
+      213: -6820676921913110969
+    second: SunPickup_8
+  - first:
+      213: 569547186568893111
+    second: SunPickup_9
+  - first:
+      213: -4117370364962132563
+    second: SunPickup_10
+  - first:
+      213: -1280434499106833741
+    second: SunPickup_11
+  - first:
+      213: -4755291836124483097
+    second: SunPickup_12
+  - first:
+      213: 6664530975689008708
+    second: SunPickup_13
+  - first:
+      213: -3804093829431471489
+    second: SunPickup_14
+  - first:
+      213: 1664386138261525161
+    second: SunPickup_15
+  - first:
+      213: -4199781182688824802
+    second: SunPickup_16
+  - first:
+      213: 7540782549316199200
+    second: SunPickup_17
+  - first:
+      213: 7854930333632432578
+    second: SunPickup_18
+  - first:
+      213: 1303800009917007431
+    second: SunPickup_19
+  - first:
+      213: -5358644701274128028
+    second: SunPickup_20
+  - first:
+      213: -8619587996454705339
+    second: SunPickup_21
+  - first:
+      213: 2415172189961707992
+    second: SunPickup_22
+  - first:
+      213: -1386160302089889395
+    second: SunPickup_23
+  - first:
+      213: -5850344414451447728
+    second: SunPickup_24
+  - first:
+      213: -1850132758862296169
+    second: SunPickup_25
+  - first:
+      213: 3485574845707474277
+    second: SunPickup_26
+  - first:
+      213: 6447227348674284140
+    second: SunPickup_27
+  - first:
+      213: 2264734513445526931
+    second: SunPickup_28
+  - first:
+      213: -2151657378860437298
+    second: SunPickup_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SunPickup_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 655
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5f6f7a0aab0f8e0800000000000000
+      internalID: -1661623063324199519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 655
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22c8e4c232079fe0800000000000000
+      internalID: -1182473960086257105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 655
+        width: 114
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9c559e377df64e0800000000000000
+      internalID: -1986132017811175001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 655
+        width: 115
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07012048fdb0ac30800000000000000
+      internalID: 4368700512474826506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 656
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab875a6bf93e653b0800000000000000
+      internalID: -5523977617819731782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 527
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd64e5b78be51ea0800000000000000
+      internalID: -5902552768494408257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 527
+        width: 114
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c8387cbe7e16b0800000000000000
+      internalID: -5323678361569410849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 528
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1e7352350b9e790800000000000000
+      internalID: -7500269833255656979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 528
+        width: 114
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e0aad1a761851a0800000000000000
+      internalID: -6820676921913110969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 528
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2134a062077e700800000000000000
+      internalID: 569547186568893111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 398
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad26b3c7792cd6c0800000000000000
+      internalID: -4117370364962132563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 398
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baf49a6b9bfa3ee0800000000000000
+      internalID: -1280434499106833741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 397
+        width: 109
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e13c78054fc10eb0800000000000000
+      internalID: -4755291836124483097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 397
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446e788bc9b2d7c50800000000000000
+      internalID: 6664530975689008708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 397
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f725b7c21d4253bc0800000000000000
+      internalID: -3804093829431471489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 268
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2992cdf56191710800000000000000
+      internalID: 1664386138261525161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e127677044167b5c0800000000000000
+      internalID: -4199781182688824802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_17
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 267
+        width: 109
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023e47c96cd36a860800000000000000
+      internalID: 7540782549316199200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_18
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 267
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c90a9f6581520d60800000000000000
+      internalID: 7854930333632432578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_19
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 267
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74601418337081210800000000000000
+      internalID: 1303800009917007431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 138
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461c607190542a5b0800000000000000
+      internalID: -5358644701274128028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 138
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547a811c262116880800000000000000
+      internalID: -8619587996454705339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 139
+        width: 114
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1e1168f4a648120800000000000000
+      internalID: 2415172189961707992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_23
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 138
+        width: 115
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d891f28ac8e53cce0800000000000000
+      internalID: -1386160302089889395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_24
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 137
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0584ee260c66fcea0800000000000000
+      internalID: -5850344414451447728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b03b8ee020356e0800000000000000
+      internalID: -1850132758862296169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 6
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5655e64dadf3f5030800000000000000
+      internalID: 3485574845707474277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_27
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 5
+        width: 115
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a0aef5d17297950800000000000000
+      internalID: 6447227348674284140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_28
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ddc787a04fd6f10800000000000000
+      internalID: 2264734513445526931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunPickup_29
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 4
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0fcae8307c322e0800000000000000
+      internalID: -2151657378860437298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SunPickup_0: -1661623063324199519
+      SunPickup_1: -1182473960086257105
+      SunPickup_10: -4117370364962132563
+      SunPickup_11: -1280434499106833741
+      SunPickup_12: -4755291836124483097
+      SunPickup_13: 6664530975689008708
+      SunPickup_14: -3804093829431471489
+      SunPickup_15: 1664386138261525161
+      SunPickup_16: -4199781182688824802
+      SunPickup_17: 7540782549316199200
+      SunPickup_18: 7854930333632432578
+      SunPickup_19: 1303800009917007431
+      SunPickup_2: -1986132017811175001
+      SunPickup_20: -5358644701274128028
+      SunPickup_21: -8619587996454705339
+      SunPickup_22: 2415172189961707992
+      SunPickup_23: -1386160302089889395
+      SunPickup_24: -5850344414451447728
+      SunPickup_25: -1850132758862296169
+      SunPickup_26: 3485574845707474277
+      SunPickup_27: 6447227348674284140
+      SunPickup_28: 2264734513445526931
+      SunPickup_29: -2151657378860437298
+      SunPickup_3: 4368700512474826506
+      SunPickup_4: -5523977617819731782
+      SunPickup_5: -5902552768494408257
+      SunPickup_6: -5323678361569410849
+      SunPickup_7: -7500269833255656979
+      SunPickup_8: -6820676921913110969
+      SunPickup_9: 569547186568893111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
