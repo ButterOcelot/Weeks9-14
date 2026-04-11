@@ -15,6 +15,8 @@ public class Scr_PotatoMine : MonoBehaviour
     public float DMG;
     public float DMGTaken;
 
+    public UnityEvent attack;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -46,6 +48,7 @@ public class Scr_PotatoMine : MonoBehaviour
         if(t >= 14)
         {
             selfAnimator.SetBool("isGrown?", true);
+            yield break;
         }
 
     }
@@ -61,6 +64,7 @@ public class Scr_PotatoMine : MonoBehaviour
 
     public void OnExplode()
     {
+        attack.Invoke();
         Destroy(gameObject);
     }
 }
