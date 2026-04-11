@@ -67,4 +67,9 @@ public class Scr_PotatoMine : MonoBehaviour
         attack.Invoke();
         Destroy(gameObject);
     }
+
+    public void OnDamageTake()
+    {
+
+    }
 }

@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class Scr_SunPickup : MonoBehaviour
 {
+
 
     private Vector3 position;
     public float speed;
@@ -11,13 +13,14 @@ public class Scr_SunPickup : MonoBehaviour
     public bool isSpawned;
     public SpriteRenderer sprite;
 
-    public GameObject player;
     private float decayTimer = 0;
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.Find("Player");
+        //player = GameObject.Find("Player");
 
         int tempNumber = Random.Range(1, 6);
         if (tempNumber == 1 && isSpawned == false)
@@ -28,7 +31,7 @@ public class Scr_SunPickup : MonoBehaviour
         {
             landingY = -1.089f;
         }
-        if(tempNumber == 3 && isSpawned == false)
+        if (tempNumber == 3 && isSpawned == false)
         {
             landingY = 0.3497f;
         }
@@ -36,7 +39,7 @@ public class Scr_SunPickup : MonoBehaviour
         {
             landingY = 1.797f;
         }
-        if(tempNumber == 5 && isSpawned == false)
+        if (tempNumber == 5 && isSpawned == false)
         {
             landingY = 3.241f;
         }
@@ -45,25 +48,9 @@ public class Scr_SunPickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePosition = Mouse.current.position.ReadValue();
-        Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        if (sprite.bounds.Contains(worldMousePos) == true)
-        {
-            player.isOverSun = true;
-            if(player.clickedCount%2 = 0)
-            {
-               Destroy(gameObject);
-            }
-        }
-        else
-        {
-            player.isOverSun = false;
-        }
-
-
-            position = transform.position;
-        if(position.y > landingY)
+        position = transform.position;
+        if (position.y > landingY)
         {
             position.y += speed * Time.deltaTime;
             if (speed > -3)
@@ -73,13 +60,15 @@ public class Scr_SunPickup : MonoBehaviour
         }
         transform.position = position;
 
-        if(position.y <= landingY)
+        if (position.y <= landingY)
         {
             decayTimer += Time.deltaTime;
-            if(decayTimer >= 20)
+            if (decayTimer >= 20)
             {
                 Destroy(gameObject);
             }
         }
     }
 }
+
+   

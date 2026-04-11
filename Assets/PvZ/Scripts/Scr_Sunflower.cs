@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class Scr_Sunflower : MonoBehaviour
 {
+
+
     public float HP;
     public float maxHP;
-    public float DMG;
+    
     public float DMGTaken;
 
     public float sunTimer;
@@ -40,6 +42,7 @@ public class Scr_Sunflower : MonoBehaviour
     {
         GameObject sunPickup = Instantiate(sun, spawnPos, Quaternion.identity);
         Scr_SunPickup script = sunPickup.GetComponent<Scr_SunPickup>();
+        script.isSpawned = true;
         script.landingY = sunLanding.y;
         SpriteRenderer sunSprite = sunPickup.GetComponent<SpriteRenderer>();
         sunSprite.sortingOrder = 150;
@@ -49,4 +52,10 @@ public class Scr_Sunflower : MonoBehaviour
     {
         animator.SetBool("IsProducingSun?", false);
     }
+
+    public void OnDamageTake()
+    {
+
+    }
+
 }

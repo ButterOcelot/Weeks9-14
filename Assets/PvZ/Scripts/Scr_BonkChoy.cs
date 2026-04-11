@@ -1,12 +1,14 @@
 using UnityEngine;
 
-public class Scr_WallNut : MonoBehaviour
+public class Scr_BonkChoy : MonoBehaviour
 {
 
+    public Animator animator;
     public float HP;
     public float maxHP;
     public float DMGTaken;
-    public Animator animator;
+    public float DMG;
+    public bool isZombieInFront;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,12 +19,18 @@ public class Scr_WallNut : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("HP", HP);
+        if(isZombieInFront == true)
+        {
+            animator.SetBool("InFront?", true);
+        }
+        else
+        {
+            animator.SetBool("InFront?", false);
+        }
     }
 
     public void OnDamageTake()
     {
 
     }
-
 }

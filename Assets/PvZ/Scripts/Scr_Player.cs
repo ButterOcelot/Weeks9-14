@@ -7,19 +7,37 @@ using UnityEngine.InputSystem;
 
 public class Scr_Player : MonoBehaviour
 {
-    int clickedCount;
-    public bool isOverSun;
+    //int clickedCount;
 
     public float sun;
     public string plantID;
     public GameObject sunCounter;
 
-    //public GameObject peashooterSeedsCooldown;
+    public GameObject peashooterCooldown;
+    public Slider peashooterSeedsCooldown;
+
+    public GameObject sunflowerCooldown;
+    public Slider sunflowerSeedsCooldown;
+
+    public GameObject wallnutCooldown;
+    public Slider wallnutSeedsCooldown;
 
     public GameObject potatomineCooldown;
     public Slider potatomineCooldownController;
-    bool canPlantPMine = true;
 
+    public GameObject bonkchoyCooldown;
+    public Slider bonkchoySeedsCooldown;
+
+    bool canPlantPeaShtr = true;
+    bool canPlantSunFlw = true;
+    bool canPlantWallnut = true;
+    bool canPlantPMine = true;
+    bool canPlantBchoy = true;
+
+    public GameObject sunPickup;
+
+    Vector2 worldMousePos;
+    int clickedCount;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,6 +49,7 @@ public class Scr_Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         TextMeshProUGUI sunCounterText = sunCounter.GetComponent<TextMeshProUGUI>();
 
         string sunTotal = sun.ToString();
@@ -39,7 +58,7 @@ public class Scr_Player : MonoBehaviour
 
     public void setPlantIDPeashooter()
     {
-        if (sun >= 100)
+        if (sun >= 100 && canPlantPeaShtr == true)
         {
             plantID = "peashooter";
             sun -= 100;
@@ -49,9 +68,34 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+    }
 
-            Debug.Log(plantID);
+    public void setPlantIDSunFlower()
+    {
+        if (sun >= 50 && canPlantSunFlw == true)
+        {
+            plantID = "sunflower";
+            sun -= 50;
+        }
 
+        else
+        {
+            Debug.Log("You dont have enough sun!");
+        }
+    }
+
+    public void setPlantIDWallNut()
+    {
+        if (sun >= 50 && canPlantWallnut == true)
+        {
+            plantID = "wallnut";
+            sun -= 50;
+        }
+
+        else
+        {
+            Debug.Log("You dont have enough sun!");
+        }
     }
 
     public void setPlantIDPotatoMine()
@@ -66,10 +110,47 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
-
-        
-
     }
+
+    public void setPlantIDBonkChoy()
+    {
+        if (sun >= 150 && canPlantBchoy == true)
+        {
+            plantID = "bonkchoy";
+            sun -= 150;
+        }
+
+        else
+        {
+            Debug.Log("You dont have enough sun!");
+        }
+    }
+
+    //public void OnPlantedPeashooter()
+    //{
+    //    StartCoroutine(PeashooterCooldown());
+    //    canPlantPeaShtr = false;
+
+    //}
+
+    //IEnumerator PeashooterCooldown()
+    //{
+    //    float t = 20;
+
+    //    while (t > 0)
+    //    {
+    //        t -= Time.deltaTime;
+    //        peahsooterCooldownController.value = t;
+    //        peahsooterCooldown.GetComponent<Image>().fillAmount = (peahsooterCooldownController.value / 20);
+    //        if (t == 0)
+    //        {
+    //            canPlantPeaShtr = true;
+    //            yield break;
+    //        }
+    //        yield return null;
+    //    }
+
+    //}
 
     public void OnPlantedPotatoMine()
     {
@@ -97,20 +178,29 @@ public class Scr_Player : MonoBehaviour
         
     }
 
-    public void OnSunPickup()
+    public void OnPoint(InputAction.CallbackContext context)
     {
-        sun += 25;
-        
+        Vector2 mousePosition = context.ReadValue<Vector2>();
+        worldMousePos = Camera.main.ScreenToWorldPoint(mousePosition);
     }
-   
+
     public void OnClick(InputAction.CallbackContext context)
     {
+        sunPickup = GameObject.Find("SunPickup(Clone)");
         clickedCount += 1;
 
-        if (isOverSun == true && context.performed == true && clickedCount%2 == 0)
+        if (sunPickup != null && sunPickup.GetComponent<SpriteRenderer>().bounds.Contains(worldMousePos) == true && context.performed == true && clickedCount % 2 == 0)
         {
-            OnSunPickup();
+            SunGrab();
+            Destroy(sunPickup);
         }
+    }
+
+
+
+    public void SunGrab()
+    {
+        sun += 25;
     }
 
 }
