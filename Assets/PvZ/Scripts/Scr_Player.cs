@@ -10,34 +10,21 @@ public class Scr_Player : MonoBehaviour
     //int clickedCount;
 
     public float sun;
-    public string plantID;
+    public GameObject plantID;
     public GameObject sunCounter;
-
-    public GameObject peashooterCooldown;
-    public Slider peashooterSeedsCooldown;
-
-    public GameObject sunflowerCooldown;
-    public Slider sunflowerSeedsCooldown;
-
-    public GameObject wallnutCooldown;
-    public Slider wallnutSeedsCooldown;
 
     public GameObject potatomineCooldown;
     public Slider potatomineCooldownController;
 
-    public GameObject bonkchoyCooldown;
-    public Slider bonkchoySeedsCooldown;
-
-    bool canPlantPeaShtr = true;
-    bool canPlantSunFlw = true;
-    bool canPlantWallnut = true;
     bool canPlantPMine = true;
-    bool canPlantBchoy = true;
 
+    public GameObject potatomine;
     public GameObject sunPickup;
 
     public Vector2 worldMousePos;
     int clickedCount;
+
+    public UnityEvent potatoreset;
 
     //variables
 
@@ -59,57 +46,14 @@ public class Scr_Player : MonoBehaviour
         //updates the sun counter when the player collects or uses sun
     }
 
-    public void setPlantIDPeashooter()
-    {
-        if (sun >= 100 && canPlantPeaShtr == true)
-        {
-            plantID = "peashooter";
-            sun -= 100;
-        }
-
-        else
-        {
-            Debug.Log("You dont have enough sun!");
-        }
-        //when the player clicked on the seeds for peashooers, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
-    }
-
-    public void setPlantIDSunFlower()
-    {
-        if (sun >= 50 && canPlantSunFlw == true)
-        {
-            plantID = "sunflower";
-            sun -= 50;
-        }
-
-        else
-        {
-            Debug.Log("You dont have enough sun!");
-        }
-        //when the player clicked on the seeds for sunflowers, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
-    }
-
-    public void setPlantIDWallNut()
-    {
-        if (sun >= 50 && canPlantWallnut == true)
-        {
-            plantID = "wallnut";
-            sun -= 50;
-        }
-
-        else
-        {
-            Debug.Log("You dont have enough sun!");
-        }
-        //when the player clicked on the seeds for wallnuts, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
-    }
-
+   
     public void setPlantIDPotatoMine()
     {
-        if (sun >= 25 && canPlantPMine == true)
+        if (sun >= 500 && canPlantPMine == true)
         {
-            plantID = "potatomine";
-            sun -= 25;
+            potatoreset.Invoke();
+            OnPlantedPotatoMine();
+            sun -= 500;
         }
 
         else
@@ -119,28 +63,12 @@ public class Scr_Player : MonoBehaviour
         //when the player clicked on the seeds for potato mines, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
-    public void setPlantIDBonkChoy()
-    {
-        if (sun >= 150 && canPlantBchoy == true)
-        {
-            plantID = "bonkchoy";
-            sun -= 150;
-        }
-
-        else
-        {
-            Debug.Log("You dont have enough sun!");
-        }
-        //when the player clicked on the seeds for bonk choys, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
-    }
-
-
 
     public void OnPlantedPotatoMine()
     {
         StartCoroutine(PotatoMineCooldown());
         canPlantPMine = false;
-        //if a potato mine is planted, start the cooldown on the seeds (This works, planting doesnt :/ )
+        //if a potato mine is planted, start the cooldown on the seeds
     }
 
     IEnumerator PotatoMineCooldown()

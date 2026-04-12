@@ -271,6 +271,7 @@ MonoBehaviour:
   armor: {fileID: 2215524632783995062}
   animator: {fileID: 5405763108608821897}
   ID: basic
+  target: {fileID: 2925215488336447550, guid: 4799fb6cf39a014418559d83885b0f1f, type: 3}
   OnEat:
     m_PersistentCalls:
       m_Calls: []
