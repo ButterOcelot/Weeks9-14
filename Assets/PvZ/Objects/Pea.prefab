@@ -104,11 +104,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e8508d8c1953648802dc7909d4b27c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scr_Pea
-  targetObjs:
-  - {fileID: 1573803573342926945, guid: bfd5f2993eb9f2d42ab0a490bb0029f3, type: 3}
-  - {fileID: 3521654050592380681, guid: 9a0bb9fa69b5adc4abe7214600267809, type: 3}
-  - {fileID: 7147971586461243428, guid: 6c59ff57c584ff24fad087dea3305292, type: 3}
-  targets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  target: {fileID: 7147971586461243428, guid: 6c59ff57c584ff24fad087dea3305292, type: 3}
+  targetSprite: {fileID: 0}

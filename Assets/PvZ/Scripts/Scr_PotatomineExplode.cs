@@ -10,7 +10,7 @@ public class Scr_PotatomineExplode : MonoBehaviour
     SpriteRenderer spritePotatoMine;
 
     public UnityEvent OnExplode;
-
+    //Variables
     
 
 
@@ -37,9 +37,11 @@ public class Scr_PotatomineExplode : MonoBehaviour
         animPotatoMine.enabled = false;
         spritePotatoMine.enabled = false;
     }
+    //this is triggered at the start of the potatomine exploding, hiding the main sprite so that it disapears before the explosion sprite finishes.
 
     public void OnExplodeEnd()
     {
         OnExplode.Invoke();
     }
+    //this invokes the potatomine to destroy itself and WOULD have applied damage to the zombie that triggered it
 }

@@ -12,9 +12,9 @@ public class Scr_Peashooter : MonoBehaviour
     public GameObject rangeObject;
     public bool zombieInLane;
     public Animator animator;
-    public List<GameObject> targets = new List<GameObject>();
-
+    public GameObject target;
     private SpriteRenderer range;
+    //variables
 
 
     //lane zombie spawns -4.10948 -2.696043 -1.3 0.11 1.65352
@@ -23,29 +23,25 @@ public class Scr_Peashooter : MonoBehaviour
     void Start()
     {
         range = rangeObject.GetComponent<SpriteRenderer>();
+        //get the sprite from the range object
     }
 
     // Update is called once per frame
     void Update()
     {
+        target = GameObject.Find("Zombie(Clone)");
+        GameObject targetPos = target.transform.GetChild(0).gameObject;
+        //find the zombie objects
 
-        for (int i = 0; i < targets.Count; i++)
+        if (range.bounds.Contains(targetPos.transform.position) == true)
         {
-            GameObject tempStorage = targets[i];
-            GameObject tempTarget = tempStorage.transform.GetChild(0).gameObject;
-
-
-            if (range.bounds.Contains(tempTarget.transform.position) == true)
-            {
-                zombieInLane = true;
-            }
-            else
-            {
-                zombieInLane = false;
-
-            }
+            zombieInLane = true;
+        }
+        else
+        {
+            zombieInLane = false;
         }        
-
+        
         if (zombieInLane == true)
         {
             animator.SetBool("IsAttacking?", true);
@@ -54,15 +50,19 @@ public class Scr_Peashooter : MonoBehaviour
         {
             animator.SetBool("IsAttacking?", false);
         }
+        //if zombies are in the lane, enable the animation for shooting, or dont if there are no zombies
+
     }
 
-    public void OnDamageTake()
+    public void OnDamageTake(float damage)
     {
-
+        HP -= damage;
+        //apply damage
     }
 
     public void OnShootPea()
     {
         GameObject shotPea = Instantiate(pea, peaSpawnLocation.transform.position, Quaternion.identity);
+        //when invoked, spawn a pea
     }
 }

@@ -9,6 +9,7 @@ public class Scr_BonkChoy : MonoBehaviour
     public float DMGTaken;
     public float DMG;
     public bool isZombieInFront;
+    //variables
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,10 +28,12 @@ public class Scr_BonkChoy : MonoBehaviour
         {
             animator.SetBool("InFront?", false);
         }
+        //if a zombie is in front, activate the attack animation, or disable it if there arent any
     }
 
-    public void OnDamageTake()
+    public void OnDamageTake(float damage)
     {
-
+        HP -= damage;
+        //apply damage
     }
 }

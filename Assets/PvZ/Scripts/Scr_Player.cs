@@ -36,8 +36,10 @@ public class Scr_Player : MonoBehaviour
 
     public GameObject sunPickup;
 
-    Vector2 worldMousePos;
+    public Vector2 worldMousePos;
     int clickedCount;
+
+    //variables
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -54,6 +56,7 @@ public class Scr_Player : MonoBehaviour
 
         string sunTotal = sun.ToString();
         sunCounterText.text = sunTotal;
+        //updates the sun counter when the player collects or uses sun
     }
 
     public void setPlantIDPeashooter()
@@ -68,6 +71,7 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+        //when the player clicked on the seeds for peashooers, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
     public void setPlantIDSunFlower()
@@ -82,6 +86,7 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+        //when the player clicked on the seeds for sunflowers, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
     public void setPlantIDWallNut()
@@ -96,6 +101,7 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+        //when the player clicked on the seeds for wallnuts, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
     public void setPlantIDPotatoMine()
@@ -110,6 +116,7 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+        //when the player clicked on the seeds for potato mines, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
     public void setPlantIDBonkChoy()
@@ -124,39 +131,16 @@ public class Scr_Player : MonoBehaviour
         {
             Debug.Log("You dont have enough sun!");
         }
+        //when the player clicked on the seeds for bonk choys, set the plant string for planting and remove the needed sun, or if they cant afford it tell them they cant
     }
 
-    //public void OnPlantedPeashooter()
-    //{
-    //    StartCoroutine(PeashooterCooldown());
-    //    canPlantPeaShtr = false;
 
-    //}
-
-    //IEnumerator PeashooterCooldown()
-    //{
-    //    float t = 20;
-
-    //    while (t > 0)
-    //    {
-    //        t -= Time.deltaTime;
-    //        peahsooterCooldownController.value = t;
-    //        peahsooterCooldown.GetComponent<Image>().fillAmount = (peahsooterCooldownController.value / 20);
-    //        if (t == 0)
-    //        {
-    //            canPlantPeaShtr = true;
-    //            yield break;
-    //        }
-    //        yield return null;
-    //    }
-
-    //}
 
     public void OnPlantedPotatoMine()
     {
         StartCoroutine(PotatoMineCooldown());
         canPlantPMine = false;
-
+        //if a potato mine is planted, start the cooldown on the seeds (This works, planting doesnt :/ )
     }
 
     IEnumerator PotatoMineCooldown()
@@ -175,6 +159,7 @@ public class Scr_Player : MonoBehaviour
             }
             yield return null;
         }
+        //have a timer that acts as a cooldown for the potatomine seeds, and visualy indicates this over the seedpacket
         
     }
 
@@ -183,6 +168,7 @@ public class Scr_Player : MonoBehaviour
         Vector2 mousePosition = context.ReadValue<Vector2>();
         worldMousePos = Camera.main.ScreenToWorldPoint(mousePosition);
     }
+    //tracks the player's mouse movment via player input actions
 
     public void OnClick(InputAction.CallbackContext context)
     {
@@ -194,6 +180,7 @@ public class Scr_Player : MonoBehaviour
             SunGrab();
             Destroy(sunPickup);
         }
+        //if the player clicks on a sun pickup, delete it and trigger the sun grab event on it
     }
 
 
@@ -202,5 +189,5 @@ public class Scr_Player : MonoBehaviour
     {
         sun += 25;
     }
-
+    //add 25 sun to the player's sun total
 }

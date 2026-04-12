@@ -136,3 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78435845ce297524bb8885c51287caf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scr_GridSquare
+  player: {fileID: 0}
+  playerScript: {fileID: 0}
+  spriteRenderer: {fileID: 3183045370503173506}

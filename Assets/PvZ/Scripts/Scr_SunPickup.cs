@@ -14,6 +14,7 @@ public class Scr_SunPickup : MonoBehaviour
     public SpriteRenderer sprite;
 
     private float decayTimer = 0;
+    //variables
 
 
 
@@ -43,6 +44,7 @@ public class Scr_SunPickup : MonoBehaviour
         {
             landingY = 3.241f;
         }
+        //picks a lane to land on
     }
 
     // Update is called once per frame
@@ -69,6 +71,7 @@ public class Scr_SunPickup : MonoBehaviour
             }
         }
     }
+    //the sun will move up before falling down until it lands, and once it lands it has a 20 second timer for the player to grab it before it despawns.
 }
 
    

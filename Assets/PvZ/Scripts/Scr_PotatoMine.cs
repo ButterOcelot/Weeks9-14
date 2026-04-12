@@ -16,6 +16,8 @@ public class Scr_PotatoMine : MonoBehaviour
     public float DMGTaken;
 
     public UnityEvent attack;
+    //variables
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +35,7 @@ public class Scr_PotatoMine : MonoBehaviour
     {
         StartCoroutine(GrowPotatoMine());
     }
+    //when the intro animation is done, start the growth timer
 
 
     IEnumerator GrowPotatoMine()
@@ -52,6 +55,7 @@ public class Scr_PotatoMine : MonoBehaviour
         }
 
     }
+    //growth timer, when finished, play the priming animation 
 
     public void OnTriggerExplosion()
     {
@@ -61,15 +65,18 @@ public class Scr_PotatoMine : MonoBehaviour
         explSpriteRenderer.enabled = true;
         explAnimator.enabled = true;
     }
+    //this WOULD HAVE triggered the explosion animation, while it does that, there is nothing to trigger the explosion due to failure to make the zombies work
 
     public void OnExplode()
     {
         attack.Invoke();
         Destroy(gameObject);
     }
+    //this would have applied damage to the zombies on the tile, but due to lack of functional zombies this is only triggered when the potato mine's explosion is manually triggered in the animator
 
-    public void OnDamageTake()
+    public void OnDamageTake(float damage)
     {
-
+        HP -= damage;
+        //apply damage
     }
 }

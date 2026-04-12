@@ -6,32 +6,29 @@ public class Scr_Pea : MonoBehaviour
 {
     float speed = 5.2f;
     float DMG = 20;
-
-
-    public List<GameObject> targetObjs = new List<GameObject>();
-    public List<SpriteRenderer> targets = new List<SpriteRenderer>();
+    public GameObject target;
+    public SpriteRenderer targetSprite;
+    //variables
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < targetObjs.Count; i++)
-        {
-            targets[i] = targetObjs[i].GetComponent<SpriteRenderer>();
-        }
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        target = GameObject.Find("Zombie(Clone)");
+        targetSprite = target.GetComponent<SpriteRenderer>();
+        //finds a zombiie and gets it's sprite
 
-        for (int i = 0;  i < targets.Count; i++)
+        if (targetSprite.bounds.Contains(transform.position))
         {
-            if (targets[i].bounds.Contains(transform.position))
-            {
-                GameObject tempGameObj = GameObject.Find(targetObjs[i].name);
-                tempGameObj.GetComponent<Scr_Zombie>().OnDamageTake(DMG);
-                Destroy(gameObject);
-            }
+            GameObject tempGameObj = GameObject.Find("Zombie(Clone)");
+            tempGameObj.GetComponent<Scr_Zombie>().OnDamageTake(DMG);
+            Destroy(gameObject);
+            //if the pea is inside a zombie, delete the pea and trigger the zombie's damage event
         }
 
         Vector3 position = transform.position;
@@ -41,5 +38,6 @@ public class Scr_Pea : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        //move to the right, if you go beyond the lawn, delete the pea to prevent them from building up.
     }
 }

@@ -137,10 +137,7 @@ MonoBehaviour:
   rangeObject: {fileID: 7538208575871691143}
   zombieInLane: 0
   animator: {fileID: 6789301045460889567}
-  targets:
-  - {fileID: 1573803573342926945, guid: bfd5f2993eb9f2d42ab0a490bb0029f3, type: 3}
-  - {fileID: 3521654050592380681, guid: 9a0bb9fa69b5adc4abe7214600267809, type: 3}
-  - {fileID: 7147971586461243428, guid: 6c59ff57c584ff24fad087dea3305292, type: 3}
+  target: {fileID: 7147971586461243428, guid: 6c59ff57c584ff24fad087dea3305292, type: 3}
 --- !u!1 &5179717987794554277
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,6 +18,9 @@ public class Scr_Sunflower : MonoBehaviour
     public Animator animator;
 
     Vector3 sunLanding;
+    //variables
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,6 +28,7 @@ public class Scr_Sunflower : MonoBehaviour
         sunLanding = transform.position;
         spawnPos = transform.position;
         spawnPos.y += 2.5f;
+        //set up where the sun spawned by the sunflower will land
     }
 
     // Update is called once per frame
@@ -36,6 +40,7 @@ public class Scr_Sunflower : MonoBehaviour
             sunTimer = 0;
             animator.SetBool("IsProducingSun?", true);
         }
+        //timer for how long the sunflower takes to produce sun. When done, trigger the animation for producing sun
     }
 
     public void spawnSun()
@@ -46,16 +51,19 @@ public class Scr_Sunflower : MonoBehaviour
         script.landingY = sunLanding.y;
         SpriteRenderer sunSprite = sunPickup.GetComponent<SpriteRenderer>();
         sunSprite.sortingOrder = 150;
+        //spawn a sun pickup when invoked
     }
 
     public void endProduceAnim()
     {
         animator.SetBool("IsProducingSun?", false);
+        //swap back to the idle animation after producing a sun pickup
     }
 
-    public void OnDamageTake()
+    public void OnDamageTake(float damage)
     {
-
+        HP -= damage;
+        //apply damage
     }
 
 }
